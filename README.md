@@ -31,7 +31,7 @@ An example can be found below
 
 ## How to use
 
-Place all your software packages in the `Software` folder. Modify the bootstrap.ps1 file with all the values that you need.
+Create a folder called `Software` next to the scripts and copy all the required installers to that folder. Modify the bootstrap.ps1 file with all the values that you need.
 
 Upload the folder to your package management software. The install and uninstall string will always be the same command. You dont need to provide any more parameters. Everything is taken care of by the scripts and variables in the bootstrap file.
 
